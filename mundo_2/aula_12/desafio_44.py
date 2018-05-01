@@ -27,16 +27,3 @@ elif forma == 4:
     print("Você selecionou em 3x ou mais no cartão.")
 else:
     print("Por favor, selecione uma alternativa válida. Tente novamente.")
-
-# Área de testes. Sim, eu sei que isso é errado.
-print("Isto é um teste")
-print("Isto é outro teste.")
-a = 56
-print(56**2)
-
-isto é outro teste.
-
-import random
-
-isto = random.randint(4, 5)
-print(isto)
