@@ -1,7 +1,10 @@
+from random import choice
+
 '''
 Crie um programa que faça o computador jogar Jokenpô com você.
-Simples assim, gafanhoto.
 '''
-import random
+
 lista = ["pedra", "papel", "tesoura"]
-print(random.choice(lista))
+# print(choice(lista))
+
+print("Computador: vamos jogar Jokenpô")
