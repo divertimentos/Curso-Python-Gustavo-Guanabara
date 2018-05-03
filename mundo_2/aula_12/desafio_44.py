@@ -30,30 +30,19 @@ elif forma == 2:  # 5% de desconto
     )
 elif forma == 3:  # Em até 2x no cartão: preço normal
     print("Você selecionou em 2x no cartão.")
-    print("Pagamento à vista R$ {:.2f} ou em 2x de R${:.2f}.".format(
-        valor, (valor / 2))
-    )
+    print("Pagamento em 2x de R${:.2f}.".format((valor / 2))
+          )
+
 elif forma == 4:  # Em até 3x ou mais: 20% de juros
     print("Você selecionou em 3x ou mais no cartão.")
-    desconto = (
-        valor * (30 / 100)
-    )
-    print('''
-
-    Pagamento, com juros de 30%, em:
-    3x de R${:.2f}
-    
-    4x de R${:.2f}
-    5x de R${:.2f}
-    6x de R${:.2f}
-    7x de R${:.2f}
-    
-    '''.format(
-        (valor + desconto) / 3,
-        (valor + desconto) / 4,
-        (valor + desconto) / 5,
-        (valor + desconto) / 6,
-        (valor + desconto) / 7
-    ))
+    desconto = (valor * (20 / 100))
+    parcelas = int(input("Em quantas vezes você deseja parcelar? \n"))
+    if parcelas < 3:
+        print("A quantidade mínima de parcelas é de 3x no cartão.")
+    else:
+        print("Pagamento, com juros de 20%, em {}x de R$ {:.2f}.".format(
+            parcelas, (valor + (desconto)) / parcelas))
+        # print('''Pagamento, com juros de 20%, em: 3x de R${:.2f} 4x de R${:.2f} 5x de R${:.2f} 6x de R${:.2f} 7x de R${:.2f}'''.format(
+        #   (valor + desconto) / 3, (valor + desconto) / 4, (valor + desconto) / 5, (valor + desconto) / 6, (valor + desconto) / 7))
 else:
     print("Por favor, selecione uma alternativa válida. Tente novamente.")
