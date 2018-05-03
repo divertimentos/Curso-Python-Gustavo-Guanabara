@@ -20,5 +20,5 @@ if mensalidade >= (sal * 30 / 100):
     # if sal < (mensalidade * (30 / 100)):
     print("Empréstimo negado.")
 else:
-    print("Empréstimo concedido! \nMensalidade durante {} anos: R${:.2f}.".format(
+    print("Empréstimo concedido. \nMensalidade durante {} anos: R${:.2f}.".format(
         tempo, mensalidade))
