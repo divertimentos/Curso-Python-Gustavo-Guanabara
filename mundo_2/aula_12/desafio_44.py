@@ -42,7 +42,5 @@ elif forma == 4:  # Em até 3x ou mais: 20% de juros
     else:
         print("Pagamento, com juros de 20%, em {}x de R$ {:.2f}.".format(
             parcelas, (valor + (desconto)) / parcelas))
-        # print('''Pagamento, com juros de 20%, em: 3x de R${:.2f} 4x de R${:.2f} 5x de R${:.2f} 6x de R${:.2f} 7x de R${:.2f}'''.format(
-        #   (valor + desconto) / 3, (valor + desconto) / 4, (valor + desconto) / 5, (valor + desconto) / 6, (valor + desconto) / 7))
 else:
     print("Por favor, selecione uma alternativa válida. Tente novamente.")
