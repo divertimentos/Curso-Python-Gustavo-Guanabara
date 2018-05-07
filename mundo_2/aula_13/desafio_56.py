@@ -2,7 +2,8 @@
 No final do programa, mostre:
  - A média de idade do grupo
  - Qual é o nome do homem mais velho
- - Quantas mulheres têm menos de 20 anos'''
+ - Quantas mulheres têm menos de 20 anos
+ '''
 
 mean = 0
 counter = 0
@@ -28,7 +29,8 @@ for i in range(2):
     mean = (adder / counter)
 
 print("A média de idade do grupo é de {} anos.".format(mean))
-print("O nome do homem mais velho é {} e ele tem {} anos".format(name_older, older))
+print("O nome do homem mais velho é {} e ele tem {} anos".format(
+    name_older, older))
 
 if add_age == 0:
     print("Nenhuma mulher tem menos de 20 anos.")
