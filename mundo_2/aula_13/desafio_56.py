@@ -11,15 +11,15 @@ add_age = 0
 older = 0
 name_older = ""
 
-for i in range(4):
+for i in range(2):
     name = str(input("Nome: \n"))
     age = int(input("Idade: \n"))
-    sex = int(input("Digite 1 para homem e 2 para mulher: \n"))
-    if sex == 1:
+    sex = str(input("Sexo [M/F]: \n")).strip().upper()
+    if sex == "M":
         if age > older:
             older = age
             name_older = name
-    elif sex == 2:
+    elif sex == "F":
         if age < 20:
             add_age += 1
 
@@ -28,7 +28,8 @@ for i in range(4):
     mean = (adder / counter)
 
 print("A média de idade do grupo é de {} anos.".format(mean))
-print("O nome do homem mais velho é {}".format(name_older))
+print("O nome do homem mais velho é {} e ele tem {} anos".format(name_older, older))
+
 if add_age == 0:
     print("Nenhuma mulher tem menos de 20 anos.")
 elif add_age == 1:

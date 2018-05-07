@@ -3,9 +3,13 @@ from datetime import date
 No final, mostre quantas pessoas ainda não atingiram a maioridade
 e quantas já são maiores'''
 atual = date.today().year
-counter = 0
+counter_young = 0
+counter_adult = 0
 for i in range(7):
     num = int(input("Digite anos de nascimento: \n"))
     if atual - num >= 21:
-        counter += 1
-print("Das 7 pessoas, {} são maiores de 21 anos.".format(counter))
+        counter_adult += 1
+    elif atual - num < 21:
+        counter_young += 1
+print("Ao todo tivemos {} maiores e {} menores de idade.".format(
+    counter_adult, counter_young))

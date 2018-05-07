@@ -4,7 +4,7 @@ from time import sleep
 # Indo de 10 até 0, com uma pausa de 1 segundo entre eles.
 # USANDO LOOP AGORA
 
-for i in range(5, 0, -1):
+for i in range(5, -1, -1):
     print(i)
     sleep(1)
 print("FELIZ ANO NOVO!")
