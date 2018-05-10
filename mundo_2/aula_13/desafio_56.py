@@ -26,7 +26,7 @@ for i in range(2):
 
     counter += 1
     adder += age
-    mean = (adder / counter)
+    mean = (adder / counter) 
 
 print("A média de idade do grupo é de {} anos.".format(mean))
 print("O nome do homem mais velho é {} e ele tem {} anos".format(
