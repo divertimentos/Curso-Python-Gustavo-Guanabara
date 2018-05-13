@@ -38,27 +38,31 @@ while user != 5:
             print("Resultado da soma: \n{} + {} = {}".format(num1, num2, (num1 + num2)))
             print(menu)
             user = int(input("Sua escolha: \n"))
-        if user == 2:  # Multiplicação:
+        elif user == 2:  # Multiplicação:
             print("Você escolheu multiplicação!")
             print("Resultado da multiplicação: \n{} x {} = {:.0f}".format(num1, num2, (num1 * num2)))
             print(menu)
             user = int(input("Sua escolha: \n"))
-        if user == 3:  # Maior ou menor:
+        elif user == 3:  # Maior ou menor:
             if num1 > num2:
                 maior = num1
                 menor = num2
                 print("O maior é {} e o menor é {}.".format(maior, menor))
+                print(menu)
             elif num2 > num1:
                 maior = num2
-                menor = num2
+                menor = num1
                 print("O maior é {} e o menor é {}.".format(maior, menor))
+                print(menu)
             else:
                 print("Os dois números são idênticos.")
+                print(menu)
             user = int(input("Sua escolha: \n"))
-        if user == 4:  # Novos números:
+        elif user == 4:  # Novos números:
             new_num1 = float(input("Novo número 1: \n"))
             new_num2 = float(input("Novo número 2: \n"))
             num1 = new_num1
             num2 = new_num2
+            print(menu)
             user = int(input("Sua escolha: \n"))
 print("Opção 5: programa encerrado.")

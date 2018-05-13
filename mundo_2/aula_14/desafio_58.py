@@ -12,9 +12,9 @@ counter = 0
 
 num = int(input("Em qual número você acha que eu pensei? \n"))  # Pedido
 
+ran = randint(0, 5)
 while num != ran:
-    ran = randint(0, 5)
-    if num < 0 or num > 5:
+    if num < 0 or num > 5:  # entrada errada do usuário
         if num < 0:
             print("O número não pode ser negativo!")
             num = int(input("Digite: \n"))  # Pedido
@@ -23,10 +23,16 @@ while num != ran:
             num = int(input("Digite: \n"))  # Pedido
     else:
         if num != ran:
-            print("Número digitado: {}.".format(num))
-            print("VocÊ ERROU. O número correto era {}".format(ran))
-            print("Tente novamente.")
-            num = int(input("Digite: \n"))  # Pedido
+            if ran > num:
+                print("Você errou! \nDica: digite um número maior.")
+                print("Número digitado: {}.".format(num))
+                num = int(input("Tente novamente: \n"))  # Pedido
+            if ran < num:
+                print("Você errou! \nDica: digite um número menor.")
+                print("Número digitado: {}.".format(num))
+                num = int(input("Tente novamente: \n"))  # Pedido
+    counter += 1
 print("Número digitado: {}.".format(num))
 print("Número da máquina: {}.".format(ran))
 print("Parabéns, você venceu.")
+print("Número de tentativas: {}.".format(counter))
