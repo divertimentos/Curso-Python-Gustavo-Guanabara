@@ -39,4 +39,4 @@ while cont <= n:
 print(" > Fim!")
 '''
 
-# Achei meu código mais elegante que o dele.
+# Achei o meu código mais elegante que o dele.
