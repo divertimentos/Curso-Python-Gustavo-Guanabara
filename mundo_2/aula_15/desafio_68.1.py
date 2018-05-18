@@ -10,16 +10,14 @@ victories = 0
 
 while True:
     player = int(input("Escolha um número: \n"))
-    
     #  Controle de exceções:
     if player < 0:
         print("Digite um inteiro positivo menor do que dez.")
     elif player > 10:
         print("Digite um inteiro menor do que 10")
     else:  # Se entre 0 e 10, então rode:
-        computer = randint(1, 10)  # Jogada da máquina
+        computer = randint(0, 10)  # Jogada da máquina
         choice = str(input("Ímpar ou par? [I / P] \n")).strip().upper()
-
         if choice == "P":  # Se você escolheu par:
             print("Você escolheu: PAR!")
             soma = player + computer
@@ -32,7 +30,6 @@ while True:
                 print(f"{soma} é ímpar, então você perdeu.")
                 print(f"Vitórias consecutivas: {victories}")
                 break
-
         elif choice == "I":  # Se você escolheu ímpar:
             soma = player + computer
             print("Você escolheu ÍMPAR!")

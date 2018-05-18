@@ -1,0 +1,1 @@
+print("emrehliuG"[::-1])
