@@ -5,10 +5,8 @@ a) qual é o total gasto na compra
 b) quantos produtos custam mais de R$ 1000
 c) qual é o nome do produto mais barato
 '''
-somador = 0
-higher = 0
-cheaper = 0
 cheaper_name = ""
+somador = higher = cheaper = 0
 
 while True:
     name = str(input("Nome do produto: \n"))
