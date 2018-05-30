@@ -16,11 +16,11 @@ while counter < 5:
 tupla = tuple(tupla)
 
 # listagem de números gerados:
+print("Valores sorteados: ", end="")
 for num in tupla:
-    print(num)
+    print(f"{num} ", end="")
 
 # menor e maior valores:
-
 menor = tupla[0]
 maior = tupla[0]
 
@@ -30,5 +30,5 @@ for num in tupla:
     if num > maior:
         maior = num
 
-print(f"Menor: {menor}")
+print(f"\nMenor: {menor}")
 print(f"Maior: {maior}")
