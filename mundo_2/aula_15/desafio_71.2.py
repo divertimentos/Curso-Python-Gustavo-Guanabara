@@ -1,4 +1,5 @@
 from datetime import datetime
+from time import sleep
 
 '''
 Crie um programa que simule o funcionamento de um caixa eletrônico.
@@ -13,12 +14,16 @@ now = datetime.now().hour
 num = int(input('''
 Seja bem-vindo ao Banco Python!
 
-Digite o valor que você deseja sacar: \nR$'''))
+Digite o valor que você deseja sacar: \nR$ '''))
 
 cedulas = [50, 20, 10, 1]
 lista = []
 
+print("Contando as notas... aguarde.")
+sleep(2)
+
 print("\nSacando:")
+
 while num > 0:
     for i in cedulas:
         cedulas = num // i
