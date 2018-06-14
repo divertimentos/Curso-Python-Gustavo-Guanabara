@@ -20,6 +20,6 @@ for i in range(1, 6):
             print(f"Adicionado na posição no final da lista.")
 
         # Outros números:
-        else:
+        # else:
             
     print(f"Lista ordenada parcial: {lista}.")
