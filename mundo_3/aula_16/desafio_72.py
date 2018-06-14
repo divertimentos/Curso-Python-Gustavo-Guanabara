@@ -7,8 +7,8 @@ Seu programa deverá ler um número pelo teclado
 e mostrá-lo por extenso'''
 
 extensos = (
-    "zero", "um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", 
-    "nove", "dez", "onze", "doze", "treze", "catorze", "quinze", 
+    "zero", "um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito",
+    "nove", "dez", "onze", "doze", "treze", "catorze", "quinze",
     "dezesseis", "dezessete", "dezoito", "dezenove", "vinte"
     )
 while True:

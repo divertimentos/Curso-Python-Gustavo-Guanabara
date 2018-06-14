@@ -38,3 +38,4 @@ for num in tupla:
     if num % 2 == 0:
         pares.append(num)
 print(f"Números pares: {pares}")
+

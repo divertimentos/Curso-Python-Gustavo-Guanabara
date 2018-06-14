@@ -9,6 +9,7 @@ tupla = (
     "Galadriel", "Luthien Tinuviel", "Erik Killmonger", 
     "Kendrick Lamar", "Charlotte Galves", "Roberta Pires", "Amanda"
     )
+
 vogais = ["a", "e", "i", "o", "u"]
 
 for nome in tupla:
@@ -20,5 +21,5 @@ for nome in tupla:
             if letra == i:
                 lista.append(letra)
 
-    print(f"{nome.capitalize()}: {lista}")
+    print(f"{nome.capitalize()}: {lista} - {len(lista)} vogais")
     del(lista)
