@@ -21,5 +21,5 @@ for i in range(1, 6):
 
         # Outros números:
         # else:
-            
+
     print(f"Lista ordenada parcial: {lista}.")
