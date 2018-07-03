@@ -23,4 +23,4 @@ while True:
         print("Digite apenas 'sim' ou 'não'!")
 
 lista.sort()
-print(lista)    
+print(f"Você digitou os valores {lista}!")
