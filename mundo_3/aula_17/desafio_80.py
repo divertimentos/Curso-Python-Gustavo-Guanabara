@@ -31,3 +31,4 @@ for i in range(1, 6):
         print(f"Lista ordenada parcial: {lista}.")
 
 # teste de commit
+# Outro teste de commit
