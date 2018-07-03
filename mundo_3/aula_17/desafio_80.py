@@ -28,6 +28,6 @@ for i in range(1, 6):
             for j in lista:
                 if num > j:
                     lista.insert(j, num)
-
-
         print(f"Lista ordenada parcial: {lista}.")
+
+# teste de commit
