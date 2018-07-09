@@ -14,5 +14,4 @@ while x < len(exp):
         lista.append(x)
     if exp[x] == ")":
         if len(lista) > 0:
-            lista = lista.pop(lista[-1])
-        
+            lista = lista.pop(lista[-1]
