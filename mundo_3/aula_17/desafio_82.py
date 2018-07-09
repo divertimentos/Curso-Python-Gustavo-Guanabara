@@ -6,6 +6,9 @@ e os valores ímpares digitados, respectivamente.
 Ao final, mostre o conteúdo das três listas geradas.
 '''
 lista = []
+pares = []
+impares = []
+
 while True:
     lista.append(int(input("Digite um número: \n")))
     cont = str(input("Quer continuar? \n")).strip().upper()
@@ -17,8 +20,6 @@ while True:
     else:
         print("Digite uma resposta válida.")
 
-pares = []
-impares = []
 
 for num in lista:
     if num % 2 == 0:
