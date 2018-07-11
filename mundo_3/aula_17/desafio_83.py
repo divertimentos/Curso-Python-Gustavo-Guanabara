@@ -26,12 +26,8 @@ while x < len(exp):
         lista.append(x)
     if exp[x] == ")":
         if len(lista) > 0:
-<<<<<<< HEAD
             lista = lista.pop(lista[-1])
     x += 1
 
 print(f"lista: {lista}")
 '''
-=======
-            lista = lista.pop(lista[-1]
->>>>>>> a2932aef63ceeed5807e26dcd9562ef5e1e4ba21
