@@ -6,28 +6,21 @@ está com os parênteses abertos e fechados na ordem correta.
 '''
 
 lista = []
-x = 0  # Contador
 exp = str(input("Digite uma expressão: \n"))
-print(f"Tamanho da expressão: {len(exp)}")
 
-while x < len(exp):
-    if exp[x] == "(":
-        lista.append(exp[x])
-    if exp[x] == ")":
+for simb in exp:
+    if simb == "(":
+        lista.append(simb)
+    elif simb == ")":
         if len(lista) > 0:
-            del lista[-1]
-            del x
-    x += 1
+            lista.pop(-1)
+        else:
+            lista.append(")")
+            break
+
 print(f"Lista: {lista}")
 
-'''
-while x < len(exp):
-    if exp[x] == "(":
-        lista.append(x)
-    if exp[x] == ")":
-        if len(lista) > 0:
-            lista = lista.pop(lista[-1])
-    x += 1
-
-print(f"lista: {lista}")
-'''
+if len(lista) == 0:
+    print("Válido")
+else:
+    print("Inválido")
