@@ -1,5 +1,5 @@
 # Aula de listas 2 (eu aprendi como sendo matrizes)
-'''
+
 teste = list()
 teste.append("Gustavo")
 teste.append(40)
@@ -19,7 +19,8 @@ galera = [["Kendrick Nanar", 30], ["Power Ranger Preto", 33], ["Senhora da Magia
 
 for p in galera:
     print(f"{p[0]} tem {p[1]} anos.")
-'''
+
+#### **** #### **** ####
 
 galera = list()
 dado = list()
