@@ -8,7 +8,7 @@ No final, mostre os valores pares e ímpares
 em ordem crescente.
 '''
 
-lista = [[],[]]
+lista = [[], []]
 
 for num in range(1, 8):
     numero = int(input((f"Digite um número ({num}/7): \n")))
@@ -18,4 +18,4 @@ for num in range(1, 8):
         lista[1].append(numero)  # números ímpares
 
 print(f"Números pares em ordem crescente: {sorted(lista[0])}")
-print(f"Números ímpares em ordme crescente: {sorted(lista[1])}")
+print(f"Números ímpares em ordem crescente: {sorted(lista[1])}")

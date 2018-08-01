@@ -65,4 +65,4 @@ for k in listb:  # Para cada lista dentro de listb:
 
 # Respostas b) e c):
 print(f" b) O maior peso foi de {maior}kg. Peso de {mais_pesados}")
-print(f" c) O maior peso foi de {menor}kg. Peso de {menos_pesados}.")
+print(f" c) O menor peso foi de {menor}kg. Peso de {menos_pesados}.")
