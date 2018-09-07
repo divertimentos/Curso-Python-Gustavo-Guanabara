@@ -28,7 +28,7 @@ for i in range(3):
         if lista[i][j] % 2 == 0:
             soma += lista[i][j]
 
-print(f"Soma {soma}.")
+print(f"Soma dos valores pares: {soma}.")
 
 # Reposta B: soma dos valores da terceira coluna:
 soma_coluna = 0
