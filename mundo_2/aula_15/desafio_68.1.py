@@ -24,21 +24,26 @@ while True:
             if soma % 2 == 0:  # Se deu par:
                 victories += 1
                 sleep(1)
+                print(f"O computador escolheu {computer}.")
                 print(f"{soma} é par, então você ganhou!")
             else:  # Se deu ímpar:
                 sleep(1)
+                print(f"O computador escolheu {computer}.")
                 print(f"{soma} é ímpar, então você perdeu.")
                 print(f"Vitórias consecutivas: {victories}")
                 break
+        
         elif choice == "I":  # Se você escolheu ímpar:
             soma = player + computer
             print("Você escolheu ÍMPAR!")
             if soma % 2 != 0:  # Se a soma deu ímpar:
                 victories += 1
                 sleep(1)
+                print(f"O computador escolheu {computer}.")
                 print(f"{soma} é ímpar, então você ganhou!")
             else:  # Se deu par:
                 sleep(1)
+                print(f"O computador escolheu {computer}.")
                 print(f"{soma} é par, então você perdeu!")
                 print(f"Vitórias consecutivas: {victories}")
                 break
