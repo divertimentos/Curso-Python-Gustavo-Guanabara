@@ -22,7 +22,7 @@ counter = 0
 # Atribuição dos dados nas listas:
 while True:
     lista.append(str(input("Nome: \n"))) 
-    lista.append(int(input("Peso (em kg): \n")))
+    lista.append(float(input("Peso (em kg): \n")))
     
     listb.append(lista[:])
     lista.clear()
