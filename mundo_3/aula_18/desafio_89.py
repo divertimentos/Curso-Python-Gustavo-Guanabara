@@ -53,9 +53,16 @@ e permita que o usuário possa mostrar as notas de cada aluno individualmente
 
 def calculate_mean(students_infos):
     students_means = list()
+    new_infos = list()  # bad naming
+
     for item in students_infos:
+        students_means.append(item[0])
         students_means.append(mean(item[1:]))
-    return students_means
+        new_infos.append(students_means)
+        del students_means
+        students_means = list()
+
+    return new_infos
 
 
 def display_school_report():
