@@ -57,3 +57,5 @@ for c in range(0, 3):
 for estado in brasil:
     for k, v in estado.items():
         print(f"O campo {k} tem valor {v}.")
+
+# teste
