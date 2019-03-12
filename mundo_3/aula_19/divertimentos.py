@@ -24,12 +24,12 @@ locadora = [star_wars, avengers]
 print(locadora[0]["ano"])
 print(locadora[1]["titulo"])
 
-print(filme.values())
-print(filme.keys())
-print(filme.items())
+# print(filme.values())
+# print(filme.keys())
+# print(filme.items())
 
-for k, v in filme.items():
-    print(f"O {k} é {v}")
+# for k, v in filme.items():
+#     print(f"O {k} é {v}")
 
 pessoas = {"nome": "Gustavo", "sexo": "M", "idade": 22}
 pessoas["peso"] = 98.5
@@ -57,5 +57,3 @@ for c in range(0, 3):
 for estado in brasil:
     for k, v in estado.items():
         print(f"O campo {k} tem valor {v}.")
-
-# teste
