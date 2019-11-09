@@ -12,7 +12,7 @@ aproveitamento = {
 }
 
 # Nome
-nome = input("Qual o nome do jogador? \n" )
+nome = input("Qual o nome do(a) jogador(a)? \n" )
 aproveitamento['nome'] = nome
 
 # Partidas
@@ -21,10 +21,10 @@ aproveitamento['partidas'] = partidas
 
 # Gols em cada partida
 for partida in range(partidas):
-    gols_partida = int(input(f"Quantos gols o {nome} fez na partida {partida+1}? \n"))
+    gols_partida = int(input(f"Quantos gols o(a) jogador(a) {nome} fez na partida {partida+1}? \n"))
     aproveitamento['gols'] += gols_partida
 
 
 print(
-    f"O jogador {nome} jogou {partidas} partidas e possui um total de {aproveitamento['gols']} gols!"
+    f"O(A) jogador(a) {nome} jogou {partidas} partidas e possui um total de {aproveitamento['gols']} gols!"
 )
