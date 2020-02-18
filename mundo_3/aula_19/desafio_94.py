@@ -10,32 +10,23 @@ c. uma lista com todas as mulheres
 d. uma lista com todas as pessoas com idade acima da média.
 """
 
-personal_info = dict()
+person_dict = dict()
 general_info = list()
+counter = 0
 
 while True:
-    personal_info['nome'] = input("Nome: \n")
-    personal_info['idade'] = input("Idade: \n")
-    general_info.append(personal_info)
+    person_dict['name'] = input("Nome: \n")
 
+    # sex = input("Sexo  [M/F]: \n")
+    # sex = sex[0:1].upper()
+    # person_dict['sex'] = sex
 
-    leave = input("Continuar? [S / N] \n")
+    general_info.append(person_dict.copy())
+
+    leave = input("Continuar? [S/N] \n")
     if leave[0] == "N":
         break
-print(general_info)
-
-# while True:
-#     name_dict['nome'] = input("Nome: \n")
-    
-#     sex = input("Sexo [M / F]: \n")
-#     sex = sex[0:1].upper()
-#     sex_dict['sex'] = sex
-    
-#     age_dict['age'] = input("Idade: \n")
-
-#     people_list.append([name_dict, sex_dict, age_dict])
-#     leave = input("Continuar? [S / N] \n")
-#     if leave[0] == "N":
-#         break
-
-# print(general_list)
+print(f"Dicionários: {general_info}")
+for dictionary in general_info:
+    counter += len(dictionary)
+print(counter)
