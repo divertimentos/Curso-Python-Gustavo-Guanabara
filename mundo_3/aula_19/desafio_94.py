@@ -12,6 +12,7 @@ d. uma lista com todas as pessoas com idade acima da média.
 
 person_dict = dict()
 general_info = list()
+names = list()
 counter = 0
 
 while True:
@@ -26,7 +27,15 @@ while True:
     leave = input("Continuar? [S/N] \n")
     if leave[0] == "N":
         break
-print(f"Dicionários: {general_info}")
+
+# a.: quantas pessoas foram cadastradas:
 for dictionary in general_info:
-    counter += len(dictionary)
-print(counter)
+    for key, value in (dictionary.items()):
+        names.append(value)
+print(f"Pessoas cadastradas: {len(names)}")
+
+# b.: a média de idade do grupo:
+
+# c.: uma lista com todas as mulheres:
+
+# d.: uma lista com todas as pessoas com idade acima da média:
