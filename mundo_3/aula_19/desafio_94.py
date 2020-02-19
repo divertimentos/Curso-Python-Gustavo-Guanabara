@@ -19,7 +19,7 @@ women = list()
 counter = 0
 
 while True:
-    # person_dict['name'] = input("Nome: \n")
+    person_dict['name'] = input("Nome: \n")
 
     sex = input("Sexo [M/F]: \n")
     sex = sex[0].upper()
@@ -32,7 +32,9 @@ while True:
     leave = input("Continuar? [S/N] \n")
     leave = leave.upper()
     if leave[0] == "N":
+        print(general_info)
         break
+    print(general_info)
 
 # a.: quantas pessoas foram cadastradas:
 
@@ -47,12 +49,10 @@ while True:
 # print(sum(ages)/len(ages))
 
 # c.: uma lista com todas as mulheres:
-for dictionary in general_info:
-    woman = dictionary.get("sex", "Não encontrado!")
-    if woman == "F":
-        women.append(woman)
-print(women)
-
+# for dictionary in general_info:
+#     for key, value in dictionary.items():
+#         if value == "F":
+#             print(dictionary.get("name"))
 
 
 # d.: uma lista com todas as pessoas com idade acima da média:
