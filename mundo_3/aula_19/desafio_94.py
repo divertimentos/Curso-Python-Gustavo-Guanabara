@@ -13,18 +13,20 @@ d. uma lista com todas as pessoas com idade acima da média.
 person_dict = dict()
 general_info = list()
 names = list()
+names_quantity = list()
 ages = list()
 women = list()
-
+above_mean = list()
 counter = 0
 
 while True:
     person_dict['name'] = input("Nome: \n")
 
-    sex = input("Sexo [M/F]: \n")
-    sex = sex[0].upper()
-    person_dict['sex'] = sex
-    # person_dict['age'] = float(input("Idade: \n"))
+    # sex = input("Sexo [M/F]: \n")
+    # sex = sex[0].upper()
+    # person_dict['sex'] = sex
+
+    person_dict['age'] = float(input("Idade: \n"))
     
 
     general_info.append(person_dict.copy())
@@ -34,25 +36,29 @@ while True:
     if leave[0] == "N":
         print(general_info)
         break
-    print(general_info)
 
 # a.: quantas pessoas foram cadastradas:
-
-# for dictionary in general_info:
-#     for key, value in dictionary.items():
-#         names.append(value)
-# print(f"Pessoas cadastradas: {len(names)}")
+for dictionary in general_info:
+    names_quantity.append(dictionary.get("name"))
+print(f"Pessoas cadastradas: {len(names_quantity)}")
 
 # b.: a média de idade do grupo:
 # for dictionary in general_info:
 #     ages.append(dictionary.get("age"))
-# print(sum(ages)/len(ages))
+#     age_mean = sum(ages)/len(ages)
+# print(f"Média de idade do grupo: {age_mean:.1f} anos.")
 
 # c.: uma lista com todas as mulheres:
+
 # for dictionary in general_info:
 #     for key, value in dictionary.items():
 #         if value == "F":
-#             print(dictionary.get("name"))
+#             women.append(dictionary.get("name"))
+# print(f"Lista com todas as mulheres: {women}")
 
 
 # d.: uma lista com todas as pessoas com idade acima da média:
+# for dictionary in general_info:
+#     if dictionary.get("age") > (age_mean):
+#         above_mean.append(dictionary.get("name"))
+# print(above_mean)
