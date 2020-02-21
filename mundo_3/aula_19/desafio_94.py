@@ -53,5 +53,5 @@ for dictionary in general_info:
 
 print(f"Pessoas cadastradas: {len(names_quantity)}")
 print(f"Idade média do grupo: {age_mean:.1f} anos.")
-print(f"Pessoas com idade acima da média: {above_mean}")
 print(f"Mulheres do grupo: {women}")
+print(f"Pessoas com idade acima da média: {above_mean}")
