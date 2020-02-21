@@ -11,13 +11,7 @@ d. uma lista com todas as pessoas com idade acima da média.
 """
 
 person_dict = dict()
-general_info = list()
-names = list()
-names_quantity = list()
-ages = list()
-women = list()
-above_mean = list()
-counter = 0
+general_info, names, names_quantity, ages, women, above_mean = list(), list(), list(), list(), list(), list()
 
 while True:
     person_dict['name'] = input("Nome: \n")
