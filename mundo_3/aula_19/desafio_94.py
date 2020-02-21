@@ -42,14 +42,14 @@ for dictionary in general_info:
     ages.append(dictionary.get("age"))
     age_mean = sum(ages)/len(ages)
 
-    # d.: uma lista com todas as pessoas com idade acima da média:
-    if dictionary.get("age") > (age_mean):
-        above_mean.append(dictionary.get("name"))
-
     # c.: uma lista com todas as mulheres:
     for key, value in dictionary.items():
         if value == "F":
             women.append(dictionary.get("name"))
+
+    # d.: uma lista com todas as pessoas com idade acima da média:
+    if dictionary.get("age") > (age_mean):
+        above_mean.append(dictionary.get("name"))
 
 print(f"Pessoas cadastradas: {len(names_quantity)}")
 print(f"Idade média do grupo: {age_mean:.1f} anos.")
