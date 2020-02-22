@@ -5,11 +5,6 @@ Depois vai ler a quantidade de gols feitos em cada partida.
 No final, tudo isso será guardado em um dicionário,
 incluindo o total de gols feitos durante o campeonato.
 """
-# aproveitamento = {
-#     'nome': None,
-#     'partidas': None,
-#     'gols': 0,
-# }
 
 aproveitamento = dict()
 gols_total = 0
@@ -26,9 +21,6 @@ for partida in range(aproveitamento['partidas']):
     gols_total += gols_partida
 aproveitamento['gols_total'] = gols_total
 
-# print(
-#     f"O(A) jogador(a) {nome} jogou {partidas} partidas e possui um total de {aproveitamento['gols']} gols!"
-# )
 
 print(
     f"O jogador {aproveitamento['nome']} jogou {aproveitamento['partidas']} partidas e fez um total de {aproveitamento['gols_total']} gols."
