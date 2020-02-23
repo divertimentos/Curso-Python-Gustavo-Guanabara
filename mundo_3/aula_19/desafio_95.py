@@ -7,6 +7,7 @@ de cada jogador.
 
 aproveitamento = dict()
 gols = 0
+soma_gols = 0
 lista_gols = list()
 infos_jogadores = list()
 
@@ -20,26 +21,24 @@ while True:
     partidas_jogadas = aproveitamento['partidas']
     
     # Gols
-    if partidas_jogadas > 0:
-        for partida in range(partidas_jogadas):
-            gols_partida = int(input(f"Quantos gols {nome_jogador} fez na partida {partida+1}? \n"))
-            lista_gols.append(gols_partida)
-    aproveitamento['lista_gols'] = lista_gols
-    # lista_gols = aproveitamento['lista_gols']
+    for partida in range(partidas_jogadas):
+        gols_partida = int(input(f"Quantos gols {nome_jogador} fez na partida {partida+1}? \n"))
+        lista_gols.append(gols_partida)
+        aproveitamento['lista_gols'] = lista_gols.copy()
 
-
+    # Soma gols
+    aproveitamento['soma_gols'] = sum(lista_gols)
+    
     # Inserção na listona
     infos_jogadores.append(aproveitamento.copy())
+    lista_gols.clear()
 
     # Continue?
     continuar = input("Quer continuar? [S/N] \n")
     continuar = continuar.upper()
-    if continuar == "N":
+    if continuar[0] == "N":
         break
 
-print("Infos")
-print(infos_jogadores)
-
-print(f"{'cod':^5} {'nome':^5} {'gols':^5} {'total':<25}")
+print(f"{'cod':^5} {'nome':^10} {'gols':<25} {'total':<25}")
 for cod, jogador in enumerate(infos_jogadores):
-    print(f"{cod:^5} {jogador['nome']:^5} {jogador['lista_gols']} {sum(jogador['lista_gols']):<10}")
+    print(f"{cod:^5} {jogador['nome']:^10} {jogador['lista_gols']!s:<25s} {jogador['soma_gols']:<25}")
