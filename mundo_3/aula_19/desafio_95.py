@@ -6,11 +6,8 @@ de cada jogador.
 
 
 aproveitamento = dict()
-gols = 0
-soma_gols = 0
-cod = 0
-lista_gols = list()
-infos_jogadores = list()
+gols, soma_gols, cod = 0, 0, 0
+lista_gols, infos_jogadores = list(), list()
 
 while True:
     # Nome
@@ -35,7 +32,6 @@ while True:
     aproveitamento['soma_gols'] = sum(lista_gols)
     
     # Inserção na listona
-    print(f"Aproveitamento: {aproveitamento}")
     infos_jogadores.append(aproveitamento.copy())
     lista_gols.clear()
 
@@ -45,10 +41,12 @@ while True:
     if continuar[0] == "N":
         break
 
+# Print da tabela com os status de todos os jogadores
 print(f"{'cod':^5} {'nome':^10} {'gols':<25} {'total':<25}")
 for jogador in infos_jogadores:
     print(f"{jogador['cod']!s:^5s} {jogador['nome']!s:^10s} {jogador['lista_gols']!s:<25s} {jogador['soma_gols']!s:<25s}")
 
+# Print das informações personalizadas de cada jogador
 while True:
     cod_usuario = int(input("Mostrar dados de qual jogador? (999 para parar) \n"))
 
