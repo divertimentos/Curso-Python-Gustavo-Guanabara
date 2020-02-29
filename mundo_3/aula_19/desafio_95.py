@@ -8,6 +8,7 @@ de cada jogador.
 aproveitamento = dict()
 gols = 0
 soma_gols = 0
+cod = 0
 lista_gols = list()
 infos_jogadores = list()
 
@@ -15,6 +16,10 @@ while True:
     # Nome
     aproveitamento['nome'] = input("Qual o nome do(a) jogador(a)? \n")
     nome_jogador = aproveitamento['nome']
+
+    # Cod
+    cod += 1
+    aproveitamento['cod'] = cod
 
     # Partidas
     aproveitamento['partidas'] = int(input("Partidas jogadas: \n"))
@@ -30,6 +35,7 @@ while True:
     aproveitamento['soma_gols'] = sum(lista_gols)
     
     # Inserção na listona
+    print(f"Aproveitamento: {aproveitamento}")
     infos_jogadores.append(aproveitamento.copy())
     lista_gols.clear()
 
@@ -40,5 +46,18 @@ while True:
         break
 
 print(f"{'cod':^5} {'nome':^10} {'gols':<25} {'total':<25}")
-for cod, jogador in enumerate(infos_jogadores):
-    print(f"{cod:^5} {jogador['nome']:^10} {jogador['lista_gols']!s:<25s} {jogador['soma_gols']:<25}")
+for jogador in infos_jogadores:
+    print(f"{jogador['cod']!s:^5s} {jogador['nome']!s:^10s} {jogador['lista_gols']!s:<25s} {jogador['soma_gols']!s:<25s}")
+
+while True:
+    cod_usuario = int(input("Mostrar dados de qual jogador? (999 para parar) \n"))
+
+    if cod_usuario == 999:
+        break
+    else:
+        # Mostrar dados de jogador
+        for dictionary in infos_jogadores:
+            if dictionary['cod'] == cod_usuario:
+                print(f"Levantamento do jogador {dictionary['nome'].upper()}:")
+                for n, gol in enumerate(dictionary['lista_gols']):
+                    print(f"No jogo {n+1}, fez {gol} gols.")
