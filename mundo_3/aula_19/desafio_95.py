@@ -52,10 +52,11 @@ while True:
 
     if cod_usuario == 999:
         break
-    else:
-        # Mostrar dados de jogador
-        for dictionary in infos_jogadores:
-            if dictionary['cod'] == cod_usuario:
-                print(f"Levantamento do jogador {dictionary['nome'].upper()}:")
-                for n, gol in enumerate(dictionary['lista_gols']):
-                    print(f"No jogo {n+1}, fez {gol} gols.")
+    if cod_usuario > len(infos_jogadores):
+        print("Erro! Não existe jogador com esse código. Tente novamente!")
+    # Mostrar dados de jogador
+    for dictionary in infos_jogadores:
+        if dictionary['cod'] == cod_usuario:
+            print(f"Levantamento do jogador {dictionary['nome'].upper()}:")
+            for n, gol in enumerate(dictionary['lista_gols']):
+                print(f"No jogo {n+1}, fez {gol} gols.")
