@@ -131,7 +131,7 @@ contador(8, 0)
 contador(4, 4, 7, 6, 2)
 ```
 
-#Passando uma lista como parâmetro de uma função
+# Passando uma lista como parâmetro de uma função
 
 ```python
 def dobra(lst):
