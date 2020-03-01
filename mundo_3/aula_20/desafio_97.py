@@ -13,9 +13,10 @@ Olá, Mundo!
 """
 
 def escreva(texto):
-    print("~" * len(texto))    
-    print(f"{texto:^5}")
-    print("~" * len(texto))    
+    tamanho = len(texto) + 4
+    print("~" * tamanho)    
+    print(f"  {texto}")
+    print("~" * tamanho)    
 
 escreva("Gustavo Guanabara")
 escreva("Curso de Python no YouTube")
