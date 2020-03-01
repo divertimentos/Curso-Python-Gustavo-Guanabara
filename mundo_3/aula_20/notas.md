@@ -35,7 +35,7 @@ def mostra_linha():
 
 # Parâmetros
 
-* Observando os padrões de repetição no código, podemos escrever funções nas quais as informações que variam são usadas como parâmetros, enquanto todo o restante é repetido pela função. Exemplo:
+Observando os padrões de repetição no código, podemos escrever funções nas quais as informações que variam são usadas como parâmetros, enquanto todo o restante é repetido pela função. Exemplo:
 
 ```python
 # Código sem função
@@ -105,7 +105,7 @@ subtracao(a=10, b=5)  # resp.: 5
 subtracao(b=10, a=5)  # resp.: -5
 ```
 
-# Empacotamento de parâmetros
+# Empacotamento/Desempacotamento de parâmetros
 
 Quando uma função é criada para receber dois parâmetros, mas você passa mais de dois, o Python briga com você. Por exemplo, se, na função `soma()` você passar `soma(4, 5, 1)`, você obterá um erro:
 
@@ -118,4 +118,33 @@ TypeError                                 Traceback (most recent call last)
 
 TypeError: soma() takes 2 positional arguments but 3 were given
 ```
+
+Para criar uma função que desempacota parâmetros que o usuário imputa, basta usar um asterisco ("\*") antes do parâmetro. Esse parâmetro especial é chamado também de  `*arg`:
+
+```python
+def contador(*num):
+	print(f"Recebi os valores {num} e eles são {len(num)}")
+
+  
+contador(2, 1, 7)
+contador(8, 0)
+contador(4, 4, 7, 6, 2)
+```
+
+#Passando uma lista como parâmetro de uma função
+
+```python
+def dobra(lst):
+    pos = 0
+    while pos < len(lst):
+        lst[pos] *= 2
+        pos += 1
+
+
+valores = [6, 3, 9, 1, 0, 2]
+dobra(valores)
+print(valores)
+```
+
+
 
