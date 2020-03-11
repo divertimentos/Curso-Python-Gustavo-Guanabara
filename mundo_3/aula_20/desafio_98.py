@@ -41,28 +41,6 @@ inicio = int(input("Início: \n"))
 fim = int(input("Fim: \n"))
 passo = int(input("Passo: \n"))
 
-    # print(" ", end="\n")
-    
-    # print("Contagem de 10 até 0 de 2 em 2:")
-    # for j in range(10, 0, -2):
-    #     print(f"{j} ", end="")
-    #     sleep(0.2)
-    
-    # print("Agora é a sua vez: \n")
-    # inicio = int(input("Início: \n"))
-    # fim = int(input("Fim: \n"))
-    # passo = int(input("Passo: \n"))
-
-    # print(f"Contagem de {inicio} até {fim} de {passo} em {passo}")
-    # if inicio < fim:
-    #     for k in range(inicio, fim, passo):
-    #         print(f"{k} ", end="")
-    #         sleep(0.1)
-    # else:
-    #     for k in range(fim, inicio, passo):
-    #         print(f"{k} ", end="")
-    #         sleep(0.1)
-
-# contador(1, 10, 1)
-# contador(10, 0, 2)
+contador(1, 10, 1)
+contador(10, 0, 2)
 contador(inicio, fim, passo)

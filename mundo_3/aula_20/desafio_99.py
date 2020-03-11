@@ -14,7 +14,7 @@ lin()
 
 def maior(*args):
     print("Analisando os valores passados...")
-    print("Valores informados:", end="")
+    print("Valores informados: ", end="")
     for i in args:
         print(f"{i} ", end="")
         sleep(0.2)
