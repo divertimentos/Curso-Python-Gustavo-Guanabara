@@ -1,4 +1,4 @@
-# Aula 20: Funções
+# Aula 20: Funções (Parte 1)
 
 Funções são também conhecidas como métodos ou subrotinas.
 
