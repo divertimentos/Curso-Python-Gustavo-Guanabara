@@ -72,77 +72,41 @@ Lecionado pelo prof. Gustavo Guanabara e hospedado no site do Curso em Vídeo (v
 ### Mundo 2
 
 * Exercício Python #036 - [Aprovando empréstimo](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_12/desafio_36.py)
-
 * Exercício Python #037 - [Conversor de bases numéricas](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_12/desafio_37.py)
-
 * Exercício Python #038 - [Comparando números](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_12/desafio_38.py)
-
 * Exercício Python #039 - [Alistamento militar](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_12/desafio_39.py)
-
 * Exercício Python #040 - [Aquele clássico da média](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_12/desafio_40.py)
-
 * Exercício Python #041 - [Classificando atletas](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_12/desafio_41.py)
-
 * Exercício Python #042 - [Analisando triângulos v2.0](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_12/desafio_42.py)
-
 * Exercício Python #043 - [Índice de Massa Corporal](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_12/desafio_43.py)
-
 * Exercício Python #044 - [Gerenciador de pagamentos](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_12/desafio_44.py)
-
 * Exercício Python #045 - [GAME: Pedra, Papel e Tesoura](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_12/desafio_45.py)
-
 * Exercício Python #046 - [Contagem regressiva](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_46.py)
-
 * Exercício Python #047 - [Contagem de pares](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_47.py)
-
 * Exercício Python #048 - [Soma ímpares múltiplos de três](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_48.py)
-
 * Exercício Python #049 - [Tabuada v2.0](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_49.py)
-
 * Exercício Python #050 - [Soma dos pares](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_50.py)
-
 * Exercício Python #051 - [Progressão Aritmética](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_51.py)
-
 * Exercício Python #052 - [Números primos](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_52.py)
-
 * Exercício Python #053 - [Detector de palíndromo](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_53.py)
-
 * Exercício Python #054 - [Grupo da maioridade](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_54.py)
-
 * Exercício Python #055 - [Maior e menor da sequência](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_55.py)
-
 * Exercício Python #056 - [Analisador completo](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_13/desafio_56.py)
-
 * Exercício Python #057 - [Validação de dados](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_14/desafio_57.py)
-
 * Exercício Python #058 - [Jogo da adivinhação v2.0](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_14/desafio_58.py)
-
 * Exercício Python #059 - [Criando um menu de opções](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_14/desafio_59.py)
-
 * Exercício Python #060 - [Cálculo do fatorial](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_14/desafio_60.py)
-
 * Exercício Python #061 - [Progressão aritmética v2.0](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_14/desafio_61.py)
-
 * Exercício Python #062 - [Super Progressão Aritmética v3.0](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_14/desafio_62.py)
-
 * Exercício Python #063 - [Sequência de Fibonacci v1.0](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_14/desafio_63.py)
-
 * Exercício Python #064 - [Tratando vários valores v1.0](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_14/desafio_64.py)
-
 * Exercício Python #065 - [Maior e menor valores](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_14/desafio_65.py)
-
 * Exercício Python #066 - [Vários números com flag](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_15/desafio_66.py)
-
 * Exercício Python #067 - [Tabuada v3.0](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_15/desafio_67.py)
-
 * Exercício Python #068 - [Jogo do par ou ímpar](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_15/desafio_68.1.py)
-
 * Exercício Python #069 - [Análise de dados do grupo](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_15/desafio_69.py)
-
 * Exercício Python #070 - [Estatística de produtos](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_15/desafio_70.py)
-
 * Exercício Python #071.2 - [Simulador de caixa eletrônico](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_15/desafio_71.2.py)
-
 * Exercício Python #071.2.1 - [Simulador de caixa eletrônico](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_2/aula_15/desafio_71.2.1.py)
 
 ### Mundo 3
