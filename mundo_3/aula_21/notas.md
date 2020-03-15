@@ -40,8 +40,6 @@ somar()
 somar(b=4, c=2)
 ```
 
-**Obs.: parei em 20min**
-
 ## Escopo de variáveis
 
 ```python
