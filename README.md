@@ -168,7 +168,7 @@ Lecionado pelo prof. Gustavo Guanabara e hospedado no site do Curso em Vídeo (v
 * Exercício Python #102 - [Função para fatorial](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_3/aula_21/desafio_102.py)
 * Exercício Python #103 - [Ficha do jogador](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_3/aula_21/desafio_103.py)
 * Exercício Python #104 - [Validando entrada de dados em Python](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_3/aula_21/desafio_104.py)
-* Exercício Python #105 - [Analiasndo e gerando dicionários](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_3/aula_21/desafio_105.py)
+* Exercício Python #105 - [Analisando e gerando dicionários](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_3/aula_21/desafio_105.py)
 * Exercício Python #106 - [Sistema interativo de ajuda em Python](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_3/aula_21/desafio_106.py)
 
 #### Modularização em Python
