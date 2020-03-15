@@ -14,117 +14,120 @@ Lecionado pelo prof. Gustavo Guanabara e hospedado no site do Curso em Vídeo (v
 
 ## Lista de exercícios resolvidos
 
-* Exercício Python #01 - 
-* Exercício Python #02 - 
-* Exercício Python #03 - 
-* Exercício Python #04 - 
-* Exercício Python #05 - 
-* Exercício Python #06 - 
-* Exercício Python #07 - 
-* Exercício Python #08 - 
-* Exercício Python #09 - 
-* Exercício Python #010 - 
-* Exercício Python #011 - 
-* Exercício Python #012 - 
-* Exercício Python #013 - 
-* Exercício Python #014 - 
-* Exercício Python #015 - 
-* Exercício Python #016 - 
-* Exercício Python #017 - 
-* Exercício Python #018 - 
-* Exercício Python #019 - 
-* Exercício Python #020 - 
-* Exercício Python #021 - 
-* Exercício Python #022 - 
-* Exercício Python #023 - 
-* Exercício Python #024 - 
-* Exercício Python #025 - 
-* Exercício Python #026 - 
-* Exercício Python #027 - 
-* Exercício Python #028 - 
-* Exercício Python #029 - 
-* Exercício Python #030 - 
-* Exercício Python #031 - 
-* Exercício Python #032 - 
-* Exercício Python #033 - 
-* Exercício Python #034 - 
-* Exercício Python #035 - 
-* Exercício Python #036 - 
-* Exercício Python #037 - 
-* Exercício Python #038 - 
-* Exercício Python #039 - 
-* Exercício Python #040 - 
-* Exercício Python #041 - 
-* Exercício Python #042 - 
-* Exercício Python #043 - 
-* Exercício Python #044 - 
-* Exercício Python #045 - 
-* Exercício Python #046 - 
-* Exercício Python #047 - 
-* Exercício Python #048 - 
-* Exercício Python #049 - 
-* Exercício Python #050 - 
-* Exercício Python #051 - 
-* Exercício Python #052 - 
-* Exercício Python #053 - 
-* Exercício Python #054 - 
-* Exercício Python #055 - 
-* Exercício Python #056 - 
-* Exercício Python #057 - 
-* Exercício Python #058 - 
-* Exercício Python #059 - 
-* Exercício Python #060 - 
-* Exercício Python #061 - 
-* Exercício Python #062 - 
-* Exercício Python #063 - 
-* Exercício Python #064 - 
-* Exercício Python #065 - 
-* Exercício Python #066 - 
-* Exercício Python #067 - 
-* Exercício Python #068 - 
-* Exercício Python #069 - 
-* Exercício Python #070 - 
-* Exercício Python #071 - 
-* Exercício Python #072 - 
-* Exercício Python #073 - 
-* Exercício Python #074 - 
-* Exercício Python #075 - 
-* Exercício Python #076 - 
-* Exercício Python #077 - 
-* Exercício Python #078 - 
-* Exercício Python #079 - 
-* Exercício Python #080 - 
-* Exercício Python #081 - 
-* Exercício Python #082 - 
-* Exercício Python #083 - 
-* Exercício Python #084 - 
-* Exercício Python #085 - 
-* Exercício Python #086 - 
-* Exercício Python #087 - 
-* Exercício Python #088 - 
-* Exercício Python #089 - 
-* Exercício Python #090 - 
-* Exercício Python #091 - 
-* Exercício Python #092 - 
-* Exercício Python #093 - 
-* Exercício Python #094 - 
-* Exercício Python #095 - 
-* Exercício Python #096 - 
-* Exercício Python #097 - 
-* Exercício Python #098 - 
-* Exercício Python #099 - 
-* Exercício Python #100 - 
-* Exercício Python #101 - 
-* Exercício Python #102 - 
-* Exercício Python #103 - 
-* Exercício Python #104 - 
-* Exercício Python #105 - 
-* Exercício Python #106 - 
-* Exercício Python #107 - 
-* Exercício Python #108 - 
-* Exercício Python #109 - 
-* Exercício Python #110 - 
-* Exercício Python #111 - 
-* Exercício Python #112 - 
-* Exercício Python #113 - 
-* Exercício Python #114 - 
+* Exercício Python #01 - Deixando tudo pronto
+* Exercício Python #02 - Respondendo ao usuário
+* Exercício Python #03 - Somando dois números
+* Exercício Python #04 - Dissecando uma variável
+* Exercício Python #05 - Antecessor e sucessor
+* Exercício Python #06 - Dobro, triplo e raiz quadrada
+* Exercício Python #07 - Média aritmética
+* Exercício Python #08 - Conversor de medidas
+* Exercício Python #09 - Tabuada
+* Exercício Python #010 - Conversor de moedas
+* Exercício Python #011 - Pintando parede
+* Exercício Python #012 - Calculando descontos
+* Exercício Python #013 - Reajuste salarial
+* Exercício Python #014 - Conversor de temperaturas
+* Exercício Python #015 - Aluguel de carros
+* Exercício Python #016 - Quebrando um número
+* Exercício Python #017 - Catetos e hipotenusa
+* Exercício Python #018 - Seno, cosseno e tangente
+* Exercício Python #019 - Sorteando um item na lista
+* Exercício Python #020 - Sorteando uma ordem na lista
+* Exercício Python #021 - Tocando um MP3
+* Exercício Python #022 - Analisador de textos
+* Exercício Python #023 - Separando dígitos de um número
+* Exercício Python #024 - Verificando as primeiras letras de um texto
+* Exercício Python #025 - Procurando uma string dentro de outra
+* Exercício Python #026 - Primeira e última ocorrência de uma string
+* Exercício Python #027 - Primeiro e último nome de uma pessoa
+* Exercício Python #028 - Jogo da Adivinhação v1.0
+* Exercício Python #029 - Radar eletrônico
+* Exercício Python #030 - Par ou ímpar?
+* Exercício Python #031 - Custo da viagem
+* Exercício Python #032 - Ano bissexto
+* Exercício Python #033 - Maior e menor valores
+* Exercício Python #034 - Aumentos múltiplos
+* Exercício Python #035 - Analisando triângulo v1.0
+* Exercício Python #036 - Aprovando empréstimo
+* Exercício Python #037 - Conversor de bases numéricas
+* Exercício Python #038 - Comparando números
+* Exercício Python #039 - Alistamento militar
+* Exercício Python #040 - Aquele clássico da média
+* Exercício Python #041 - Classificando atletas
+* Exercício Python #042 - Analisando triângulos v2.0
+* Exercício Python #043 - Índice de Massa Corporal
+* Exercício Python #044 - Gerenciador de pagamentos
+* Exercício Python #045 - GAME: Pedra, Papel e Tesoura
+* Exercício Python #046 - Contagem regressiva
+* Exercício Python #047 - Contagem de pares
+* Exercício Python #048 - Soma ímpares múltiplos de três
+* Exercício Python #049 - Tabuada v2.0
+* Exercício Python #050 - Soma dos pares
+* Exercício Python #051 - Progressão Aritmética
+* Exercício Python #052 - Números primos
+* Exercício Python #053 - Detector de palíndromo
+* Exercício Python #054 - Grupo da maioridade
+* Exercício Python #055 - Maior e menor da sequência
+* Exercício Python #056 - Analisador completo
+* Exercício Python #057 - Validação de dados
+* Exercício Python #058 - Jogo da adivinhação v2.0
+* Exercício Python #059 - Criando um menu de opções
+* Exercício Python #060 - Cálculo do fatorial
+* Exercício Python #061 - Progressão aritmética v2.0
+* Exercício Python #062 - Super Progressão Aritmética v3.0
+* Exercício Python #063 - Sequência de Fibonacci v1.0
+* Exercício Python #064 - Tratando vários valores v1.0
+* Exercício Python #065 - Maior e menor valores
+* Exercício Python #066 - Vários números com flag
+* Exercício Python #067 - Tabuada v3.0
+* Exercício Python #068 - Jogo do par ou ímpar
+* Exercício Python #069 - Análise de dados do grupo
+* Exercício Python #070 - Estatística de produtos
+* Exercício Python #071 - Simulador de caixa eletrônico
+* Exercício Python #072 - Número por extenso
+* Exercício Python #073 - Tuplas com times de futebol
+* Exercício Python #074 - Maior e menor valores em tupla
+* Exercício Python #075 - Análise de dados em uma tupla
+* Exercício Python #076 - Lista de preços com tupla
+* Exercício Python #077 - Contando vogais em tupla
+* Exercício Python #078 - Maior e menor valores na lista
+* Exercício Python #079 - Valores únicos em uma lista
+* Exercício Python #080 - Lista ordenada sem repetições
+* Exercício Python #081 - Extraindo dados de uma lista
+* Exercício Python #082 - Dividindo valores em várias listas
+* Exercício Python #083 - Validando expressões matemáticas
+* Exercício Python #084 - Lista composta e análise de dados
+* Exercício Python #085 - Listas com pares e ímpares
+* Exercício Python #086 - Matrix em Python
+* Exercício Python #087 - Mais sobre matriz em Python
+* Exercício Python #088 - Palpites para a Mega-Sena
+* Exercício Python #089 - Boletim com listas compostas
+* Exercício Python #090 - Dicionário em Python
+* Exercício Python #091 - Jogo de dados em Python
+* Exercício Python #092 - Cadastro de trabalhador em Python
+* Exercício Python #093 - Cadastro de jogador de futebol
+* Exercício Python #094 - Unindo dicionários e listas
+* Exercício Python #095 - Aprimorando dicionários
+* Exercício Python #096 - Função que calcula área
+* Exercício Python #097 - Um print especial
+* Exercício Python #098 - Função de contador
+* Exercício Python #099 - Função que descobre o maior
+* Exercício Python #100 - Funções para sortear e soar
+* Exercício Python #101 - Funções para votação
+* Exercício Python #102 - Função para fatorial
+* Exercício Python #103 - Ficha do jogador
+* Exercício Python #104 - Validando entrada de dados em Python
+* Exercício Python #105 - Analiasndo e gerando dicionários
+* Exercício Python #106 - Sistema interativo de ajuda em Python
+* Exercício Python #107 - Exercitando módulos em Python
+* Exercício Python #108 - Formatando moedas em Python
+* Exercício Python #109 - Formatando moedas em Python
+* Exercício Python #110 - Reduzindo ainda mais seu programa
+* Exercício Python #111 - Transformando módulos em pacotes
+* Exercício Python #112 - Entrada de dados monetários
+* Exercício Python #113 - Funções aprofundadas em Python
+* Exercício Python #114 - Site está acessível?
+* Exercício Python #115a - Criando um menu em Python
+* Exercício Python #115b - Criando um menu em Python
+* Exercício Python #115c - Finalizando o projeto
