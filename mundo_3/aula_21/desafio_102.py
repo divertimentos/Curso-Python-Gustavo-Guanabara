@@ -6,6 +6,12 @@ indicando se será mostrado ou não na tela o processo de cálculo do fatorial.
 """
 
 def fatorial(num, show=False):
+    """
+    --> Calcula o fatorial de um número.
+    :param num: o número a ser calculado
+    :param show: (opcional) mostrar ou não a conta
+    :return O valor do fatorial de um número num
+    """
     fatorial = 1
     for i in range(num, 0, -1):
         if show:
@@ -14,10 +20,8 @@ def fatorial(num, show=False):
                 print(" x ", end="")
             else:
                 print(" = ", end="")
-
-    
-
         fatorial *= i
     return fatorial
 
 print(fatorial(5, show=True))
+# help(fatorial)
