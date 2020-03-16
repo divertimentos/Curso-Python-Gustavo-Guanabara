@@ -10,14 +10,14 @@ def voto(birthyear):
     current_year = date.today().year
     age = current_year - birthyear
     if age < 16:
-        print(f"Com {age} anos de idade: NEGADO")
+        return f"Com {age} anos de idade: NEGADO"
     elif age < 18 or age >= 65:
-        print(f"Com {age} anos de idade: OPCIONAL")
+        return f"Com {age} anos de idade: OPCIONAL"
     elif age < 65:
-        print(f"Com {age} anos de idade: OBRIGATÓRIO")
-        
+        return f"Com {age} anos de idade: OBRIGATÓRIO"
+    
 
 
 
 ano_nasc = int(input("Em qual ano você nasceu? \n"))
-voto(ano_nasc)
+print(voto(ano_nasc))
