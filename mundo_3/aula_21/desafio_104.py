@@ -11,10 +11,10 @@ def leia_int(entrada_usuario):
     while True:
         numero = input(f"{entrada_usuario} \n")
         if numero.isnumeric():
-            return print(numero)
+            return numero
             break
         else:
-            print("ERRO! Digite um número inteiro válido!")
+            print("\033[93m ERRO! Digite um número inteiro válido!")
 
 n = leia_int("Digite um número:")
 print(f"Você acabou de digitar o número: {n}.")
