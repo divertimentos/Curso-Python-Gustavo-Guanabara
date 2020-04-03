@@ -38,7 +38,7 @@ def notas(*args, situacao=False):
         soma += nota
     infos['media'] = soma/infos['total']
 
-    if situacao == True:
+    if situacao:
         if infos['media'] < 6:
             infos['situacao'] = "RUIM"
         elif infos['media'] <= 7:
