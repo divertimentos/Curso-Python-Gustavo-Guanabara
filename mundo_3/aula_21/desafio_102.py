@@ -25,5 +25,5 @@ def fatorial(num, show=False):
     return fatorial
 
 
-print(fatorial(5, show=True))
-# help(fatorial)
+numero = int(input("Digite um número par saber o fatorial: \n"))
+print(fatorial(numero, show=True))
