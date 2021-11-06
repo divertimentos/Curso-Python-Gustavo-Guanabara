@@ -7,6 +7,7 @@ ex.:
 n = leia_int("Digite um n")
 """
 
+
 def leia_int(entrada_usuario):
     is_ok = False
     value = None
@@ -20,6 +21,7 @@ def leia_int(entrada_usuario):
         if is_ok:
             break
     return value
+
 
 n = leia_int("Digite um número:")
 print(f"Você acabou de digitar o número: {n}.")

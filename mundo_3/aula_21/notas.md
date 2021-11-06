@@ -17,15 +17,15 @@ def contador(i, f, p):
     :param p: passo da contagem
     :return sem retorno
     """
-    
+
     c = i
     while c <= f:
         print(f"{c}", end=", ")
         c+= p
     print("FIM!")
-    
+
     print(help(contador))
-    
+
 ```
 
 ## Parâmetros opcionais
@@ -48,7 +48,7 @@ def teste():
   x = 8
   print(f"Na função teste, n vale {n}")
   print(f"Na função teste, x vale {x}")
-  
+
 # Programa principal (global):
 n = 2
 print(f"No programa principal, n vale {n}")
@@ -73,7 +73,7 @@ Para reverter esse recurso, ou seja, usar o valor global de uma variável tanto 
 
 ```python
 def funcao(parametro):
-    global a 
+    global a
     a = 8
     print(f"'a' vale {a}")
 a = 5
@@ -100,4 +100,3 @@ r3 = somar(6)
 
 print(f"Os resultados foram {r1}, {r2} e {r3}.")
 ```
-

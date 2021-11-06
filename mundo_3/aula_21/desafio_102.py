@@ -5,6 +5,7 @@ e o outro chamado show, que será um valor lógico (opcional)
 indicando se será mostrado ou não na tela o processo de cálculo do fatorial.
 """
 
+
 def fatorial(num, show=False):
     """
     --> Calcula o fatorial de um número.
@@ -22,6 +23,7 @@ def fatorial(num, show=False):
                 print(" = ", end="")
         fatorial *= i
     return fatorial
+
 
 print(fatorial(5, show=True))
 # help(fatorial)

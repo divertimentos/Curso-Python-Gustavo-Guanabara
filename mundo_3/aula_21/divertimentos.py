@@ -35,7 +35,7 @@
 # print(f"Variável fora recebe: {variavel}")
 
 # def funcao(parametro):
-#     global a 
+#     global a
 #     a = 8
 #     print(f"'a' vale {a}")
 # a = 5
@@ -60,11 +60,13 @@
 
 ### PARTE PRATICA DA AULA:
 
+
 def fatorial(num=1):
     fatorial = 1
     for i in range(num, 0, -1):
         fatorial *= i
     return fatorial
+
 
 f1 = fatorial(5)
 f2 = fatorial(4)
