@@ -172,11 +172,11 @@ Lecionado pelo prof. Gustavo Guanabara e hospedado no site do Curso em Vídeo (v
 #### Modularização em Python
 
 - Exercício Python #107 - [Exercitando módulos em Python](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/blob/master/mundo_3/aula_22/divertimentos/desafio_107/desafio_107.py)
-- Exercício Python #108 - [Formatando moedas em Python](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/tree/master/mundo_3/aula_22/divertimentos/desafio_108)
-- Exercício Python #109 - [Formatando moedas em Python](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/tree/master/mundo_3/aula_22/divertimentos/desafio_109)
-- Exercício Python #110 - [Reduzindo ainda mais seu programa](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/tree/master/mundo_3/aula_22/divertimentos/desafio_110)
-- Exercício Python #111 - [Transformando módulos em pacotes](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/tree/master/mundo_3/aula_22/divertimentos/desafio_111)
-- Exercício Python #112 - [Entrada de dados monetários](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/tree/master/mundo_3/aula_22/divertimentos/desafio_112)
+- Exercício Python #108 - [Formatando moedas em Python](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/tree/master/mundo_3/aula_22/divertimentos/desafio_108/desafio_108.py)
+- Exercício Python #109 - [Formatando moedas em Python](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/tree/master/mundo_3/aula_22/divertimentos/desafio_109/desafio_109.py)
+- Exercício Python #110 - [Reduzindo ainda mais seu programa](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/tree/master/mundo_3/aula_22/divertimentos/desafio_110/desafio_110.py)
+- Exercício Python #111 - [Transformando módulos em pacotes](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/tree/master/mundo_3/aula_22/divertimentos/desafio_111/desafio_111.py)
+- Exercício Python #112 - [Entrada de dados monetários](https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara/tree/master/mundo_3/aula_22/divertimentos/desafio_112/desafio_112.py)
 
 #### Tratamento de erros em Python
 
