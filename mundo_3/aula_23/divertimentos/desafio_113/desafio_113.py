@@ -7,47 +7,36 @@ from os import system
 system("clear")
 
 
-# def leia_int_old(entrada_usuario):
-#     is_ok = False
-#     value = None
-#     while True:
-#         numero = input(f"{entrada_usuario} \n")
-#         if numero.isnumeric():
-#             value = numero
-#             is_ok = True
-#         else:
-#             print("\033[0;31mERRO! Digite um número inteiro válido!\033[m")
-#         if is_ok:
-#             break
-#     return value
-
-
-def leia_int_new():
-    is_ok = False
-    int_final_value = None
-    float_final_value = None
+def leia_int(message):
     while True:
-        integer_user_input = input("Digite um número inteiro (int): \n")
-        float_user_input = float("Digite um número Real (float): \n")
         try:
-            int(integer_user_input)
-            float(float_user_input)
-            int_final_value = integer_user_input
-            float_final_value = float_user_input
-
-            is_ok = True
-        except ValueError:
-            print("\033[0;31mERRO! Digite um número inteiro válido!\033[m")
-
+            number = int(input(message))
+        except (ValueError, TypeError):
+            print("\033[0;31mERRO! Digite um número INTEIRO válido!\033[m")
+            continue
+        except KeyboardInterrupt:
+            print("\033[0;31mUsuário preferi não digitar esse número\033[m")
+            return 0
         else:
-            if is_ok:
-                break
-    return f"""O valor inteiro digitado foi {int_final_value}
-    e o real foi {float_final_value}"""
+            return number
 
 
-# number = leia_int_old("Digite um número:")
-# print(f"Você acabou de digitar o número: {number}.")
+def leia_float(message):
+    while True:
+        try:
+            number = float(input(message))
+        except (ValueError, TypeError):
+            print("\033[0;31mERRO! Digite um número REAL válido!\033[m")
+            continue
+        except KeyboardInterrupt:
+            print("\033[0;31mUsuário preferiu não digitar esse número\033[m")
+            return 0
+        else:
+            return number
 
 
-print(leia_int_new())
+user_int_num = leia_int("Digite um número INTEIRO: \n")
+user_float_num = leia_int("Digite um número REAL: \n")
+
+print(f"""O valor digitado foi de {
+      user_int_num} e o real foi de {user_float_num}.""")
