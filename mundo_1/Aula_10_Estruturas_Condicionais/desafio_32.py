@@ -1,7 +1,8 @@
 # from datetime import date
-'''
+"""
 Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO
-'''
+"""
+
 num = int(input("Descubra se um ano é bissexto: \n"))
 
 if num % 4 == 0:

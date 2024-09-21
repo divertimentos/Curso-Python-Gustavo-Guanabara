@@ -7,7 +7,6 @@ e permita que o usuário possa mostrar as notas de cada aluno individualmente
 
 """
 
-
 """
 Cria um programa que lê nome e duas notas de vários alunos
 e guarda-os numa lista completa.

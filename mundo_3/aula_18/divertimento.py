@@ -12,10 +12,15 @@ teste[1] = 9000
 galera.append(teste[:])
 
 print(galera)
-'''
+"""
 
-'''
-galera = [["Kendrick Nanar", 30], ["Power Ranger Preto", 33], ["Senhora da Magia", 22], ["Sacerdotisa de Elennor", 23]]
+"""
+galera = [
+    ["Kendrick Nanar", 30],
+    ["Power Ranger Preto", 33],
+    ["Senhora da Magia", 22],
+    ["Sacerdotisa de Elennor", 23],
+]
 
 for p in galera:
     print(f"{p[0]} tem {p[1]} anos.")

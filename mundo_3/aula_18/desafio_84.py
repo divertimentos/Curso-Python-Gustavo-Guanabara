@@ -1,4 +1,4 @@
-'''
+"""
 Faça um programa que leia nome e peso de várias pessoas
 guardando tudo em uma lista.
 No final, mostre:
@@ -13,7 +13,7 @@ Se houver mais de um com esse peso, insere na lista.
 O mais normal é que a lista de mais pesados tenha apenas 1 pessoa,
 que é o motivo pelo qual a lista existe.
 
-'''
+"""
 
 lista = list()
 listb = list()
@@ -21,9 +21,9 @@ counter = 0
 
 # Atribuição dos dados nas listas:
 while True:
-    lista.append(str(input("Nome: \n"))) 
+    lista.append(str(input("Nome: \n")))
     lista.append(float(input("Peso (em kg): \n")))
-    
+
     listb.append(lista[:])
     lista.clear()
     counter += 1

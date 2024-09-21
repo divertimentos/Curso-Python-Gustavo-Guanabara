@@ -1,7 +1,7 @@
 n1 = float(input("Digite a primeira nota: \n"))
 n2 = float(input("Digite a segunda nota: \n"))
 
-m = ((n1 + n2) / 2)
+m = (n1 + n2) / 2
 print("A sua média foi {:.1f}".format(m))
 
 # Método tradicional:

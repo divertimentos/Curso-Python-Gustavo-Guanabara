@@ -2,8 +2,9 @@
 # Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
 
 from random import shuffle
+
 # Método que eu usei antes de assistir às aulas do Guanabara:
-'''
+"""
 # Primeira parte: Estabelecimento de variáveis e contadores
 nomes = ["Black Panther", "Solid Snake", "Kendrick Lamar", "Shadow the Hedgehog"]
 nomes = sample(nomes, len(nomes))  # Gerando aleatoriedade na lista de alunos
@@ -22,7 +23,7 @@ print("A lista de apresentação de trabalhos dos alunos, gerada aleatoriamente,
 for nome in chosen:  # Para cada item da lista chosen, recém-completa
     numeracao += 1  # Incremente em 1 o contador numeracao
     print("%0.f: %s" % (numeracao, nome))  # E printe a mensagem final
-'''
+"""
 # Método do Guanabara:
 
 nomes = ["Black Panther", "Solid Snake", "Kendrick Lamar", "Shadow the Hedgehog"]

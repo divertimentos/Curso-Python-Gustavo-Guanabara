@@ -5,14 +5,14 @@ print(frase[1:15:2])
 
 # Imprimindo textos inteiros:
 
-print(''''
+print("""'
 
 Ausência
 
 Eu deixarei que morra em mim o desejo de amar os teus olhos que são doces
 porque nada te poderei dar senão a mágoa de me veres eternamente exausto
 No entanto a tua presença é qualquer coisa como a luz e a vida
-''')
+""")
 
 print(frase.count("o"))
 print(frase.count("O"))
@@ -24,6 +24,6 @@ print("Curso" in frase)
 print("Código do find:", frase.find("Vídeo"))
 print(frase.lower().find("vídeo"))
 
-dividido = (frase.split())
+dividido = frase.split()
 print(dividido[0])
 print(dividido[2][3])

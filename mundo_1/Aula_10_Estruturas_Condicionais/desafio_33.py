@@ -1,6 +1,7 @@
-'''
+"""
 Faça um programa que leia três números e mostre qual é o maior e qual é o menor
-'''
+"""
+
 a = int(input("Digite um primeiro número: \n"))
 b = int(input("Digite um segundo número: \n"))
 c = int(input("Digite um terceiro e último número: \n"))
