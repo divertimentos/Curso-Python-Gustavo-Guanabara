@@ -5,5 +5,6 @@ num2 = int(input("Segundo número: \n"))
 print("A soma é:", num1 + num2)
 print("A soma é: %d!" % (num1 + num2))
 print("A soma é: {}!".format(num1 + num2))
+print("O Produto é:{}!".format(num1 * num2))
 
 # Os três formatos de print aceitam operações entre variáveis
