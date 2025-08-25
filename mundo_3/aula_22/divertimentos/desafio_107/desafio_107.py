@@ -11,9 +11,7 @@ o 'diminuir()', mesma coisa.
 
 import moeda
 
-# input_usuario = float(input("Digite o preço: \n"))
-input_usuario = 423
-
+input_usuario = float(input("Digite o preço: \n"))
 print(f"A metade de {input_usuario} é {moeda.metade(input_usuario)}")
 print(f"O dobro de {input_usuario} é {moeda.dobro(input_usuario)}")
 print(f"Aumentando 10%, temos {moeda.aumentar(input_usuario, 10)}")
