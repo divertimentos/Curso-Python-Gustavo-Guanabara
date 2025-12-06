@@ -39,6 +39,6 @@ stack-data==0.6.3
 tqdm==4.66.5
 traitlets==5.14.3
 typing_extensions==4.12.2
-urllib3==2.2.3
+urllib3==2.6.0
 wcwidth==0.2.13
 webencodings==0.5.1
