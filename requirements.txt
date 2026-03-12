@@ -18,7 +18,7 @@ jedi==0.19.1
 joblib==1.4.2
 matplotlib-inline==0.1.7
 mccabe==0.7.0
-nltk==3.9.1
+nltk==3.9.3
 parso==0.8.4
 pexpect==4.9.0
 pickleshare==0.7.5
