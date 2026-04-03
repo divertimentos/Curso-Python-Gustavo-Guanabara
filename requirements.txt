@@ -28,7 +28,7 @@ pure_eval==0.2.3
 pycodestyle==2.12.1
 pydocstyle==6.3.0
 pyflakes==3.2.0
-Pygments==2.18.0
+Pygments==2.20.0
 pylama==8.4.1
 regex==2024.9.11
 requests==2.33.0
